@@ -7,3 +7,6 @@
 [submodule "vagrant/vagrant-docker-host"]
 	path = vagrant/vagrant-docker-host
 	url = https://github.com/nobiki/vagrant-docker-host
+[submodule "docker/shultu"]
+	path = docker/shultu
+	url = https://github.com/nobiki/shultu
