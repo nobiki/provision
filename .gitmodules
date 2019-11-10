@@ -1,0 +1,9 @@
+[submodule "docker/docker-base"]
+	path = docker/docker-base
+	url = https://github.com/nobiki/docker-base
+[submodule "vagrant/gandamu"]
+	path = vagrant/gandamu
+	url = https://github.com/nobiki/gandamu
+[submodule "vagrant/vagrant-docker-host"]
+	path = vagrant/vagrant-docker-host
+	url = https://github.com/nobiki/vagrant-docker-host
