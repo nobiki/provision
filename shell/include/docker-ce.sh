@@ -1,3 +1,6 @@
+export DEBIAN_FRONTEND=noninteractive
+export COMPOSE_VER=1.24.1
+
 # docker-ce
 sudo apt-get install -y apt-transport-https ca-certificates curl wget gnupg2 software-properties-common lsb-release
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -

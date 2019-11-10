@@ -4,5 +4,5 @@ if [ -n "$SUPERUSER" ]; then
 
     echo ${SUPERUSER}' ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers.d/${SUPERUSER}
 else
-    echo 'Set $SUPERUSER and execute. `SUPERUSER=xxxx ./sudo.sh`'
+    echo 'Set $SUPERUSER and execute. `SUPERUSER=username ./sudo.sh`'
 fi
