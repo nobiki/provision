@@ -10,7 +10,7 @@ sudo apt install -y vim \
   locales \
   tzdata \
   fonts-noto-cjk \
-  ibus-mozc \
+  fcitx-mozc \
   sed \
   gawk \
   curl \
