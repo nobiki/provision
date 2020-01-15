@@ -1,0 +1,39 @@
+    1  [2020-01-16 00:04:38] ip addr
+    2  [2020-01-16 00:04:38] exit
+    3  [2020-01-16 00:04:38] sudo
+    4  [2020-01-16 00:04:38] su -
+    5  [2020-01-16 00:04:38] exit
+    6  [2020-01-16 00:04:38] sudo ls /root
+    7  [2020-01-16 00:04:38] sudo apt install -y xorg gdm3 gnome-terminal budgie-desktop fcitx-mozc
+    8  [2020-01-16 00:04:38] sudo vim /etc/apt/sources.list
+    9  [2020-01-16 00:04:38] sudo apt update
+   10  [2020-01-16 00:04:38] sudo apt install -y firmware-iwlwifi
+   11  [2020-01-16 00:04:38] sudo iwconfig
+   12  [2020-01-16 00:04:38] sudo reboot
+   13  [2020-01-16 00:04:38] startx
+   15  [2020-01-16 00:04:38] sudo iwconfig
+   16  [2020-01-16 00:04:38] sudo reboot
+   17  [2020-01-16 00:04:38] ip addr
+   18  [2020-01-16 00:04:38] sudo apt update
+   19  [2020-01-16 00:04:38] exit
+   20  [2020-01-16 00:04:38] lla
+   21  [2020-01-16 00:04:38] ls -la
+   22  [2020-01-16 00:04:38] mkdir .ssh
+   23  [2020-01-16 00:04:38] exit
+   24  [2020-01-16 00:04:38] cd .ssh
+   25  [2020-01-16 00:04:38] chmod 600 *
+   26  [2020-01-16 00:04:38] cd
+   27  [2020-01-16 00:04:38] git clone git@github.com:nobiki/dotfiles
+   28  [2020-01-16 00:04:38] cd dotfiles/
+   29  [2020-01-16 00:04:38] ./copy.sh 
+   30  [2020-01-16 00:04:38] cd
+   31  [2020-01-16 00:04:38] git clone git@github.com:nobiki/provision --recursive
+   32  [2020-01-16 00:04:38] h
+   33  [2020-01-16 00:04:38] history
+   34  [2020-01-16 00:04:38] exit
+   35  [2020-01-16 00:04:40] h
+   36  [2020-01-16 00:04:44] h > setup.log
+   71  [2020-01-16 01:06:12] wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+   72  [2020-01-16 01:07:05] sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+   73  [2020-01-16 01:07:11] sudo apt update
+   74  [2020-01-16 01:07:26] sudo apt install google-chrome-stable
