@@ -1,0 +1,24 @@
+    1  [2020-01-16 02:49:30] sudo ls /root
+    2  [2020-01-16 02:49:30] sudo apt update
+    7  [2020-01-16 02:49:30] sudo apt install --no-install-recommends task-gnome-desktop gdm3 terminator network-manager-gnome im-config fcitx fcitx-mozc fcitx-config-gtk
+    8  [2020-01-16 02:49:30] sudo vim /etc/apt/sources.list
+    9  [2020-01-16 02:49:30] sudo apt update
+   10  [2020-01-16 02:49:30] sudo apt install -y firmware-iwlwifi
+   11  [2020-01-16 02:49:30] sudo reboot
+   13  [2020-01-16 02:49:30] mkdir .ssh
+   15  [2020-01-16 02:49:30] sudo reboot
+   18  [2020-01-16 02:49:30] cd .ssh
+   19  [2020-01-16 02:49:30] chmod 600 *
+   20  [2020-01-16 02:49:30] cd
+   21  [2020-01-16 02:49:30] git clone git@github.com:nobiki/dotfiles
+   22  [2020-01-16 02:49:30] cd dotfiles/
+   23  [2020-01-16 02:49:30] ./copy.sh 
+   24  [2020-01-16 02:49:30] cd ../
+   25  [2020-01-16 02:49:30] git clone git@github.com:nobiki/provision --recursive
+   26  [2020-01-16 02:49:30] cd provision/shell/include/
+   30  [2020-01-16 02:49:30] ./Ricty.sh;./chrome.sh;./docker-ce.sh
+   31  [2020-01-16 02:49:30] sudo reboot
+   36  [2020-01-16 02:16:35] im-config
+   51  [2020-01-16 02:30:05] sudo reboot
+   68  [2020-01-16 02:49:16] sudo apt purge gnome-terminal
+   71  [2020-01-16 02:49:37] h > setup.log
