@@ -15,10 +15,10 @@ if [ -n "$SUPERUSER" ]; then
         supervisor
 
     provision/shell/debian/sudo.sh
-    provision/shell/debian/plasma-minimal.sh
+    provision/shell/debian/gnome-minimal.sh
 
-    # plasma config
-    sudo -u ${SUPERUSER} rsync -avz provision/shell/debian/plasma_config/ /home/${SUPERUSER}/.config/
+    # gnome config
+    dconf load /org/gnome/ < provision/shell/debian/gnome-backup
 
     # dotfiles
     if [ -e dotfiles ]; then
@@ -26,5 +26,5 @@ if [ -n "$SUPERUSER" ]; then
     fi
 
 else
-    echo 'Set $SUPERUSER and execute. `SUPERUSER=username ./plasma-setup.sh`'
+    echo 'Set $SUPERUSER and execute. `SUPERUSER=username ./gnome-setup.sh`'
 fi
