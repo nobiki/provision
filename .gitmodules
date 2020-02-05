@@ -10,3 +10,6 @@
 [submodule "docker/shultu"]
 	path = docker/shultu
 	url = https://github.com/nobiki/shultu
+[submodule "vagrant/nobian"]
+	path = vagrant/nobian
+	url = git@github.com:nobiki/nobian
